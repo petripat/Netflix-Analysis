@@ -1,0 +1,20 @@
+In this repository is implemented detailed analysis for data from Netflix.
+
+== Nutné knihovny
+
+. syspath, pathlib
+. Pandas, Numpy, Plotly, regex
+. Streamlit
+. requests, bs4
+. pytest
+
+== Spuštění
+
+. Z directory semestral: streamlit run main.py
+. Z directory semestral: pytest tests
+
+Moje obdržená data: semestral/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv, ale data scraping by trval hodně dlouho,
+proto doporučuji nastavit v semestral/src/web_app/front_page.py global_scrape_data = False a nebude probíhat data scraping,
+takhle se lze rychle podívat na vytvořenou stránku.
+Zkrácená data: semestral/netflix-report/ViewingActivity.csv, tady by data scraping trvat kolem 5 min.
+

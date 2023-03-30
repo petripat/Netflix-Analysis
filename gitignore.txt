@@ -1,0 +1,4 @@
+tests/scraped_data/D*
+tests/scraped_data/K*
+*pycache*
+
